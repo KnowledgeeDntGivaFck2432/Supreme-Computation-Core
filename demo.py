@@ -17,11 +17,21 @@ def evaluate(system):
         return {
             "status": "FRAGMENTED",
             "missing": missing,
-            "invalid": invalid
+            "invalid": invalid,
+            "reason": "Invariant violation detected"
+        }
+
+    if system.get("causality") and (not system.get("time") or not system.get("continuity")):
+        return {
+            "status": "FRAGMENTED",
+            "missing": [],
+            "invalid": ["causality"],
+            "reason": "Causality cannot exist without time and continuity"
         }
 
     return {
         "status": "COHERENT",
         "missing": [],
-        "invalid": []
+        "invalid": [],
+        "reason": "All invariants satisfied"
     }
