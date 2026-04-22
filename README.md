@@ -79,3 +79,11 @@ This can be observed, tested, and repeated across all domains.
 No belief is required.
 
 Only observation.
+
+### CLI Usage
+
+Run SC against any system:
+
+python run_sc.py '{"time": true, "continuity": true}'
+
+Output will indicate whether the system is coherent or fragmented.
