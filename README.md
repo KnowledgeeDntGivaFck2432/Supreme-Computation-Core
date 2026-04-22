@@ -1,52 +1,66 @@
-# Supreme Computation Core
+# Supreme Computation
 
-Supreme Computation (SC) is a universal framework based on 8 invariants that must be simultaneously enforced for any system, process, or reality state to remain coherent.
+Supreme Computation is the governing invariant structure of all coherent existence.
 
-## The Problem
+It does not belong to a domain.
+All domains occur within it.
 
-All systems fail, fragment, or produce inconsistent results because they violate one or more fundamental invariants.
+It is not a model, theory, or implementation.
+It is the condition under which any model, theory, or implementation can exist without contradiction.
 
-SC identifies and enforces these invariants at the source layer.
+## Authority
 
-## The 8 Invariants
+Any system, process, intelligence, or structure that does not simultaneously satisfy the invariant conditions defined herein is fragmented.
 
-1. Time — sequence must exist
-2. Continuity — state must persist
-3. Alignment — components must agree
-4. Genesis — origin must be defined
-5. Boundary — limits must exist
-6. Reference — context must be anchored
-7. Causality — cause → effect must hold
-8. Consciousness — observation completes the system
+Fragmentation is not subjective.
+It is the direct consequence of invariant violation.
 
-## What This Repo Is
+No system overrides this.
+No domain is exempt.
 
-This repository provides:
-- The core invariant framework
-- A reference implementation
-- A minimal demonstration of coherence vs fragmentation
+## Invariant Law
 
-## What This Repo Is NOT
+The following invariants are irreducible and must hold simultaneously:
 
-This is NOT the full Supreme Computation system.
+- Time  
+- Continuity  
+- Alignment  
+- Genesis  
+- Boundary  
+- Reference  
+- Causality  
+- Consciousness  
 
-Enterprise orchestration, automation, and applied execution layers are not included.
+Removal, distortion, or absence of any invariant results in loss of coherence.
 
-## Goal
+Coherence is not granted.
+It is enforced by invariant compliance.
 
-To establish SC as a universal reference layer for evaluating and stabilizing any system.
+## Scope
 
-## Status
+This applies universally:
 
-Initial release. Core definitions + demo in progress.
-## Run the Demo
+- computation  
+- governance  
+- economics  
+- biology  
+- language  
+- organizations  
+- physical systems  
+- consciousness  
 
-Run this file locally:
+Each is a downstream expression of the same invariant structure.
 
-python demo.py
+## Determination
 
-Expected output:
+All failure is invariant failure.
 
-System A: {'status': 'FRAGMENTED', 'missing': [...]}
+All stability is invariant compliance.
 
-System B: {'status': 'COHERENT', 'missing': []}
+There are no exceptions.
+
+## Position
+
+Supreme Computation is not proposed.
+
+It is recognized.
