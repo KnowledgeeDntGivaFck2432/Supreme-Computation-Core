@@ -1,35 +1,27 @@
 def evaluate(system):
     invariants = [
-        "time","continuity","alignment","genesis",
-        "boundary","reference","causality","consciousness"
+        "time", "continuity", "alignment", "genesis",
+        "boundary", "reference", "causality", "consciousness"
     ]
-    
-    missing = [i for i in invariants if not system.get(i)]
-    
-    if missing:
-        return {"status": "FRAGMENTED", "missing": missing}
-    
-    return {"status": "COHERENT", "missing": []}
 
+    missing = []
+    invalid = []
 
-# Example systems
+    for i in invariants:
+        if i not in system:
+            missing.append(i)
+        elif system[i] is not True:
+            invalid.append(i)
 
-system_a = {
-    "time": True,
-    "continuity": True,
-    "alignment": True
-}
+    if missing or invalid:
+        return {
+            "status": "FRAGMENTED",
+            "missing": missing,
+            "invalid": invalid
+        }
 
-system_b = {
-    "time": True,
-    "continuity": True,
-    "alignment": True,
-    "genesis": True,
-    "boundary": True,
-    "reference": True,
-    "causality": True,
-    "consciousness": True
-}
-
-print("System A:", evaluate(system_a))
-print("System B:", evaluate(system_b))
+    return {
+        "status": "COHERENT",
+        "missing": [],
+        "invalid": []
+    }
