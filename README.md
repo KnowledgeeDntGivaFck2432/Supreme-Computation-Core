@@ -64,3 +64,18 @@ There are no exceptions.
 Supreme Computation is not proposed.
 
 It is recognized.
+## Verification
+
+Supreme Computation does not rely on agreement.
+
+It is verified through consequence.
+
+Where invariants are upheld, coherence persists.
+
+Where invariants are violated, fragmentation emerges.
+
+This can be observed, tested, and repeated across all domains.
+
+No belief is required.
+
+Only observation.
