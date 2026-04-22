@@ -39,3 +39,14 @@ To establish SC as a universal reference layer for evaluating and stabilizing an
 ## Status
 
 Initial release. Core definitions + demo in progress.
+## Run the Demo
+
+Run this file locally:
+
+python demo.py
+
+Expected output:
+
+System A: {'status': 'FRAGMENTED', 'missing': [...]}
+
+System B: {'status': 'COHERENT', 'missing': []}
