@@ -1,3 +1,5 @@
+from rules import RULES
+
 def evaluate(system):
     invariants = [
         "time", "continuity", "alignment", "genesis",
@@ -21,13 +23,15 @@ def evaluate(system):
             "reason": "Invariant violation detected"
         }
 
-    if system.get("causality") and (not system.get("time") or not system.get("continuity")):
-        return {
-            "status": "FRAGMENTED",
-            "missing": [],
-            "invalid": ["causality"],
-            "reason": "Causality cannot exist without time and continuity"
-        }
+    # Rule enforcement
+    for rule in RULES:
+        if not rule["check"](system):
+            return {
+                "status": "FRAGMENTED",
+                "missing": [],
+                "invalid": [],
+                "reason": rule["error"]
+            }
 
     return {
         "status": "COHERENT",
